@@ -24,4 +24,8 @@ export class CustomersListComponent implements OnInit {
             this.customersOrderTotal += cust.orderTotal;
         });
     }
+
+    sort(prop: string) {
+        // A sorter service will handle the sorting
+    }
 }
