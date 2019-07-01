@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { SharedModule } from '../shared/shared.module';
 import { CustomersComponent } from './customers.component';
@@ -14,7 +15,8 @@ import { FilterTextboxComponent } from './customers-list/filter-textbox.componen
   ],
   imports: [
     CommonModule,
-    SharedModule 
+    SharedModule,
+    FormsModule 
   ],
   exports: [
     CustomersComponent
