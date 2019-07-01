@@ -15,7 +15,7 @@ export class CustomersComponent implements OnInit {
   ngOnInit() {
       this.title = 'Customer';
       this.people = [
-          { id: 1, name: 'John Doe', city: 'Phoenix', orderTotal: 9.99, customerSince: new Date 
+          { id: 1, name: 'john Doe', city: 'Phoenix', orderTotal: 9.99, customerSince: new Date 
           (2014, 7, 10) },
           { id: 2, name: 'Jane Doe', city: 'Los Angeles', orderTotal: 19.99, customerSince: new Date 
           (2017, 5, 1) },
